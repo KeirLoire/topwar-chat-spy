@@ -35,7 +35,7 @@ def on_message(ws, response):
         channel = ''
         for key in list(config['topwar_channels'].keys()):
             if chat_info['roomId'] == config['topwar_channels'][key]:
-                channel = f'**[{key}]**'
+                channel = f'**[{key.upper()}]** '
 
         alliance = ''
         if chat_info['fat']:
@@ -55,12 +55,14 @@ def on_open(ws):
 
     count = 420
     for key in list(config['topwar_channels'].keys()):
-        print(f'Joined {key}')
-        ws.send('{}["join","{}"]'.format(count, config['topwar_channels'][key]))
+        channel_id = config['topwar_channels'][key]
+        print(f'Joined {key.upper()}')
+        ws.send(f'{count}["join","{channel_id}"]')
         count += 1
 
-    print('Binded UUID: %s' % config['topwar']['uuid'])
-    ws.send('{}["bind","{}"]'.format(count, config['topwar']['uuid']))
+    uuid = config['topwar']['uuid']
+    print(f'Binded UUID: {uuid}')
+    ws.send(f'{count}["bind","{uuid}"]')
 
     def start_heartbeat():
         time.sleep(ping_interval)
