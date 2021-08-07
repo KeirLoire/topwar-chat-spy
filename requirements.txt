@@ -1,0 +1,3 @@
+websocket-client
+discord-webhook
+google-trans-new
