@@ -54,7 +54,7 @@ You might wanna to change the account used in Top War Parallel Space then repeat
 
 ### From the game websocket (Get alliance ID from alliance ranking list).
 
-Assuming you have understood on how to listen for websockets from the game. Also, this method is bad. There must be a better way to send/listen to these websockets.
+I know, this method is bad, there must be a better way to send/listen to these websockets.
 
 1. Clear the logs from HttpCanary.
 
