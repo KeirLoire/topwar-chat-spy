@@ -42,6 +42,8 @@ I used a packet listening tool called HttpCanary, that's where I discovered that
 
 ## Section B. How do I get the world chat ID and alliance ID of the game?
 
+You might wanna to change the account used in Top War Parallel Space then repeat the packet listening steps from Section A.
+
 ### From the chat websocket (Get current world ID and alliance ID from your account).
 
 1. Press the `chat websocket` from HttpCanary.
