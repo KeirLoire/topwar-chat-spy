@@ -24,7 +24,7 @@ This script requires prerequisites in order to run.
   - `[discord_webhooks]`
     - `main`
       - This is where the webhook URL of a Discord channel is stored. You can find more info [here](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks).
-    - You could add more if you want and use any names you want as long as it is compliant with INI format.
+    - You could add more if you want and use any names as long as it is compliant with INI format.
   - `[topwar]`
     - `websocket`
       - The chat websocket. Technically, works for any worlds, you don't need to change this.
@@ -44,20 +44,12 @@ This script requires prerequisites in order to run.
           - world_1000 = 102_1_1000g123
           - world_721 = 102_1_721g123
     - `The Alliance Chat ID`
-      > Still working on the guide for it.
+      - You can get the alliance chat ID by joining
     - You can also spy from other servers and alliances despite your account not being a member of.
 - Run `python main.py`
 - Leave the script open and notice the chats being sent to the Discord channel with the webhook you have configured in the script.
 
 If you want the script to end, just press `CTRL + C`. If that doesn't work, kill it.
-
-## How did I get the websocket of the game?
-
-> Still working on the guide for it.
-
-## How did I get the chat channels of the game?
-
-> Still working on the guide for it.
 
 ## Disclaimer
 

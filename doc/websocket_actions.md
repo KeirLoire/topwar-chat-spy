@@ -1,6 +1,6 @@
 ## About
 
-My findings on interacting in the game via websockets. Potentially, you could develop a bot for the game that you could simly control by issuing commands from Discord or automate some stuff.
+My findings on interacting in the game via websocket. Potentially, you could develop a bot for the game that you could simly control by issuing commands from Discord or automate some stuff.
 
 ### STANDARD WEBSOCKET FORMAT
 ```json
