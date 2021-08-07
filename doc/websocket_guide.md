@@ -76,7 +76,7 @@ I know, this method is bad, there must be a better way to send/listen to these w
 
 10. Extract all BIN files using 7-Zip. (some files may fail to extract, not sure why?)
 
-11. Open a Editing Tool to the directory where the files are extracted.
+11. Open an Editing Tool to the directory where the files are extracted.
     - Visual Code or something similar that is capable of searching through multiple files.
 
 12. Search for files containing `"c":651`. (this is the action for getting alliance rank list)
