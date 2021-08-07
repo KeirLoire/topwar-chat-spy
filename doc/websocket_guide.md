@@ -37,8 +37,7 @@ I used a packet listening tool called HttpCanary, that's where I discovered that
         - This websocket is used for interacting in the game.
         - From my side, the game websocket URL is:
           - wss://knight-us-gcp-1400.topwargame.com/s721
-
-<img src="https://github.com/KeirLoire/topwar-discord-chat/blob/main/img/httpcanary_websockets.jpg?raw=true" width="500"/><br>
+<a href="https://github.com/KeirLoire/topwar-discord-chat/blob/main/img/httpcanary_websockets.jpg?raw=true"><img src="https://github.com/KeirLoire/topwar-discord-chat/blob/main/img/httpcanary_websockets.jpg?raw=true" width="500"/></a><br>
 
 ## B. How do I get the world chat ID and alliance ID of the game?
 
@@ -47,8 +46,7 @@ I used a packet listening tool called HttpCanary, that's where I discovered that
 1. Press the `chat websocket` from HttpCanary.
 
 2. Refer to the image below for getting the alliance ID.
-
-<img src="https://github.com/KeirLoire/topwar-discord-chat/blob/main/img/httpcanary_chat_websocket.jpg?raw=true" width="500"/><br>
+<a href="https://github.com/KeirLoire/topwar-discord-chat/blob/main/img/httpcanary_chat_websocket.jpg?raw=true"><img src="https://github.com/KeirLoire/topwar-discord-chat/blob/main/img/httpcanary_chat_websocket.jpg?raw=true" width="500"/></a><br>
 
 ### From the game websocket (Get alliance ID from alliance ranking list).
 
@@ -94,4 +92,4 @@ For a better view of the file:
 - Search `","o"` then replace it to `,"o"`
 - Copy the content then open it on a JSON viewer tool.
 
-<img src="https://github.com/KeirLoire/topwar-discord-chat/blob/main/img/websocket_651.png?raw=true"/><br>
+<a href="https://github.com/KeirLoire/topwar-discord-chat/blob/main/img/websocket_651.png?raw=true"><img src="https://github.com/KeirLoire/topwar-discord-chat/blob/main/img/websocket_651.png?raw=true"/></a<br>

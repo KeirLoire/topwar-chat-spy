@@ -27,7 +27,7 @@ This script requires prerequisites in order to run.
     - You could add more if you want and use any names as long as it is compliant with INI format.
   - `[topwar]`
     - `websocket`
-      - The chat websocket. Technically, works for any worlds, you don't need to change this.
+      - The chat websocket. Technically, works for any server, you don't need to change this.
     - `uuid`
       - The UUID of your TopWar account. Used for saying hi to the websocket before letting you in.
   - `[topwar_channels]`
@@ -44,12 +44,16 @@ This script requires prerequisites in order to run.
           - world_1000 = 102_1_1000g123
           - world_721 = 102_1_721g123
     - `The Alliance Chat ID`
-      - Refer to B under [websocket_guide.md](https://github.com/KeirLoire/topwar-chat-spy/blob/doc/websocket_guide.md)
+      - Refer to section B under [websocket_guide.md](https://github.com/KeirLoire/topwar-chat-spy/blob/doc/websocket_guide.md)
     - You can also spy from other servers and alliances despite your account not being a member of.
 - Run `python main.py`
 - Leave the script open and notice the chats being sent to the Discord channel with the webhook you have configured in the script.
 
 If you want the script to end, just press `CTRL + C`. If that doesn't work, kill it.
+
+## How did I get the websockets and alliance ID from the game?
+
+- Refer to [websocket_guide.md](https://github.com/KeirLoire/topwar-chat-spy/blob/doc/websocket_guide.md)
 
 ## Disclaimer
 
