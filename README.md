@@ -44,7 +44,7 @@ This script requires prerequisites in order to run.
           - world_1000 = 102_1_1000g123
           - world_721 = 102_1_721g123
     - `The Alliance Chat ID`
-      - You can get the alliance chat ID by joining
+      - Refer to B under [websocket_guide.md](https://github.com/KeirLoire/topwar-chat-spy/blob/doc/websocket_guide.md)
     - You can also spy from other servers and alliances despite your account not being a member of.
 - Run `python main.py`
 - Leave the script open and notice the chats being sent to the Discord channel with the webhook you have configured in the script.

@@ -1,6 +1,6 @@
 ## A. How do I get the websocket of the game?
 
-I used a packet listening tool called HttpCanary, that's where I discovered that the game is using websockets.
+I used a packet listening tool called HttpCanary, that's where I discovered that the game is using websockets. Not the best approach but you get the idea.
 
 1. Install HttpCanary app.
 
@@ -28,10 +28,7 @@ I used a packet listening tool called HttpCanary, that's where I discovered that
 
 12. Press the green floating button from the bottom-right to stop capturing.
 
-13. HttpCanary will show two WebSockets.
-
-<img src="https://github.com/KeirLoire/topwar-discord-chat/blob/main/img/httpcanary_websockets.jpg?raw=true" width="200"/><br>
-
+13. HttpCanary will show two websockets.
     - The first one is the `chat websocket`.
         - This websocket is for receiving chats in the game.
         - From my side, the chat websocket URL is:
@@ -41,6 +38,8 @@ I used a packet listening tool called HttpCanary, that's where I discovered that
         - From my side, the game websocket URL is:
           - wss://knight-us-gcp-1400.topwargame.com/s721
 
+<img src="https://github.com/KeirLoire/topwar-discord-chat/blob/main/img/httpcanary_websockets.jpg?raw=true" width="500"/><br>
+
 ## B. How do I get the world chat ID and alliance ID of the game?
 
 ### From the chat websocket (Get current alliance ID from your account).
@@ -49,11 +48,11 @@ I used a packet listening tool called HttpCanary, that's where I discovered that
 
 2. Refer to the image below for getting the alliance ID.
 
-<img src="https://github.com/KeirLoire/topwar-discord-chat/blob/main/img/httpcanary_chat_websocket.jpg?raw=true" width="200"/><br>
+<img src="https://github.com/KeirLoire/topwar-discord-chat/blob/main/img/httpcanary_chat_websocket.jpg?raw=true" width="500"/><br>
 
-### From the game websocket (Get alliance ID from top rank alliance list).
+### From the game websocket (Get alliance ID from alliance ranking list).
 
-Assuming you have understood on how to listen for websockets from the game. Also, this method is bad. There must be a better way to send/listen to this websocket.
+Assuming you have understood on how to listen for websockets from the game. Also, this method is bad. There must be a better way to send/listen to these websockets.
 
 1. Clear the logs from HttpCanary.
 
@@ -89,10 +88,10 @@ Assuming you have understood on how to listen for websockets from the game. Also
         - 102_2_691_385492
         - 102_2_691_406558
 
-<img src="https://github.com/KeirLoire/topwar-discord-chat/blob/main/img/websocket_651.png?raw=true" width="200"/><br>
-
 For a better view of the file:
 - Search `\"` then replace it to `"`
 - Search `"d":"` then replace it to `"d":`
 - Search `","o"` then replace it to `,"o"`
 - Copy the content then open it on a JSON viewer tool.
+
+<img src="https://github.com/KeirLoire/topwar-discord-chat/blob/main/img/websocket_651.png?raw=true"/><br>
