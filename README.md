@@ -1,6 +1,6 @@
 <p align="center">
     <img src="https://github.com/KeirLoire/topwar-discord-chat/blob/main/img/logo.png?raw=true" width="200" alt="TopWar Chat Sync logo"/><br>
-    <b style="font-size:25px">TopWar Chat Spy</b><br>
+    <b style="font-size:25px">TopWar Chat Spy (TW:CS)</b><br>
     <a href="https://www.python.org/downloads/release/python-379/"><img src="https://img.shields.io/badge/python-3.7-00a0dc?label=python&style=flat&logo=python" alt="Python logo"/></a>
 </p>
 
@@ -27,11 +27,11 @@ This script requires prerequisites in order to run.
     - You could add more if you want and use any names you want as long as it is compliant with INI format.
   - `[topwar]`
     - `websocket`
-      - The websocket of the world. Technically, works for any worlds, you don't need to change this.
+      - The chat websocket. Technically, works for any worlds, you don't need to change this.
     - `uuid`
       - The UUID of your TopWar account. Used for saying hi to the websocket before letting you in.
   - `[topwar_channels]`
-    - This is the placeholders for the chat channel IDs of the alliances or servers that you want to listen.
+    - This is the placeholder for the chat channel IDs of the alliances or servers that you want to listen.
     - You can change these names, they're just names for the channel IDs:
       - world_721  
       - alliance_21BC  
