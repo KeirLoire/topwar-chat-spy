@@ -59,6 +59,6 @@ If you want the script to end, just press `CTRL + C`. If that doesn't work, kill
 
 We are not responsible for any damages or loss upon use of this software.
 
-We don't encourage any illegal activity against TopWar and this is for educational purposes only.
+We strongly discourage any illicit activity and this is for educational purposes only.
 
 Use at your own risk!

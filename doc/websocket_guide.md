@@ -1,4 +1,4 @@
-## A. How do I get the websocket of the game?
+## Section A. How do I get the websocket of the game?
 
 I used a packet listening tool called HttpCanary, that's where I discovered that the game is using websockets. Not the best approach but you get the idea.
 
@@ -39,9 +39,9 @@ I used a packet listening tool called HttpCanary, that's where I discovered that
           - wss://knight-us-gcp-1400.topwargame.com/s721
 <a href="https://github.com/KeirLoire/topwar-discord-chat/blob/main/img/httpcanary_websockets.jpg?raw=true"><img src="https://github.com/KeirLoire/topwar-discord-chat/blob/main/img/httpcanary_websockets.jpg?raw=true" width="500"/></a><br>
 
-## B. How do I get the world chat ID and alliance ID of the game?
+## Section B. How do I get the world chat ID and alliance ID of the game?
 
-### From the chat websocket (Get current alliance ID from your account).
+### From the chat websocket (Get current world ID and alliance ID from your account).
 
 1. Press the `chat websocket` from HttpCanary.
 
@@ -87,9 +87,10 @@ Assuming you have understood on how to listen for websockets from the game. Also
         - 102_2_691_406558
 
 For a better view of the file:
-- Search `\"` then replace it to `"`
-- Search `"d":"` then replace it to `"d":`
-- Search `","o"` then replace it to `,"o"`
+- Remove unnecessary characters.
+  - Search `\"` then replace it to `"`
+  - Search `"d":"` then replace it to `"d":`
+  - Search `","o"` then replace it to `,"o"`
 - Copy the content then open it on a JSON viewer tool.
 
 <a href="https://github.com/KeirLoire/topwar-discord-chat/blob/main/img/websocket_651.png?raw=true"><img src="https://github.com/KeirLoire/topwar-discord-chat/blob/main/img/websocket_651.png?raw=true"/></a<br>
