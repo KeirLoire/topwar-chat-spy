@@ -1,6 +1,6 @@
 <p align="center">
-    <img src="https://github.com/KeirLoire/topwar-discord-chat/blob/main/img/logo.png?raw=true" width="200" alt="TopWar Discord Chat Sync logo"/><br>
-    <b style="font-size:25px">TopWar Discord Chat Spy</b><br>
+    <img src="https://github.com/KeirLoire/topwar-discord-chat/blob/main/img/logo.png?raw=true" width="200" alt="TopWar Chat Sync logo"/><br>
+    <b style="font-size:25px">TopWar Chat Spy</b><br>
     <a href="https://www.python.org/downloads/release/python-379/"><img src="https://img.shields.io/badge/python-3.7-00a0dc?label=python&style=flat&logo=python" alt="Python logo"/></a>
 </p>
 
@@ -33,8 +33,8 @@ This script requires prerequisites in order to run.
   - `[topwar_channels]`
     - This is the placeholders for the chat channel IDs of the alliances or servers that you want to listen.
     - You can change these names, they're just names for the channel IDs:
-      > world_721  
-      > alliance_21BC  
+      - world_721  
+      - alliance_21BC  
     - And you could add more channels to listen.
     - `The World Chat ID`
       - You can get the ID by modifying the format. Simply replace the <server_number> from the format with the server number that you want:
@@ -45,8 +45,7 @@ This script requires prerequisites in order to run.
           - world_721 = 102_1_721g123
     - `The Alliance Chat ID`
       > Still working on the guide for it.
-
-    > NOTE: You can also spy from other servers and alliances despite not being a part of it.
+    - You can also spy from other servers and alliances despite your account not being a member of.
 - Run `python main.py`
 - Leave the script open and notice the chats being sent to the Discord channel with the webhook you have configured in the script.
 
