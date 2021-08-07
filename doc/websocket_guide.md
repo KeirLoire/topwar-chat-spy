@@ -93,4 +93,4 @@ For a better view of the file:
   - Search `","o"` then replace it to `,"o"`
 - Copy the content then open it on a JSON viewer tool.
 
-<a href="https://github.com/KeirLoire/topwar-discord-chat/blob/main/img/websocket_651.png?raw=true"><img src="https://github.com/KeirLoire/topwar-discord-chat/blob/main/img/websocket_651.png?raw=true"/></a<br>
+<a href="https://github.com/KeirLoire/topwar-discord-chat/blob/main/img/websocket_651.png?raw=true"><img src="https://github.com/KeirLoire/topwar-discord-chat/blob/main/img/websocket_action_651.png?raw=true"/></a<br>
